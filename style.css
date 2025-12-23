@@ -19,3 +19,19 @@ body {
 .table-mondrian td {
   border: 3px solid black;
 }
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
