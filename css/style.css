@@ -10,14 +10,14 @@ body {
 }
 
 .table-mondrian {
-  border: 10px solid black;
+  border: 8px solid black;
   width: 100%;
-  height: 100vh;
+  height: 1280px;
   border-collapse: collapse;
 }
 
 .table-mondrian td {
-  border: 15px solid black;
+  border: 8px solid black;
 }
 
 .red {
@@ -52,12 +52,12 @@ body {
 }
 
 .narrow-row {
-  height: 6.25vh;
+  height: 6.25%;
 }
 
 .standard-row {
-  height: 12.5vh;
+  height: 12.5%;
 }
 .dbl-standard-row {
-  height: 25vh;
+  height: 25%;
 }
