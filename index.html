@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Таблиця Мондріана</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <table class="table-mondrian">
+        <tr>
+          <!-- row 1 -->
+          <td colspan="2">Col 1</td>
+          <td colspan="2">Col 3</td>
+          <td colspan="2" class="yellow">Col 5</td>
+          <td rowspan="4">Col 7</td>
+        </tr>
+        <tr>
+          <!-- row 2 -->
+          <td>Col 1</td>
+          <td colspan="3" rowspan="2" class="red">Col 2</td>
+          <td colspan="2" class="yellow">Col 5</td>
+        </tr>
+        <tr>
+          <!-- row 3 -->
+          <td rowspan="2">Col 1</td>
+          <td>Col 5</td>
+          <td>Col 6</td>
+        </tr>
+        <tr>
+          <!-- row 4 -->
+          <td colspan="2" rowspan="2" class="black">Col 2</td>
+          <td>Col 4</td>
+          <td colspan="2">Col 5</td>
+        </tr>
+        <tr>
+          <!-- row 5 -->
+          <td rowspan="3" class="yellow">Col 1</td>
+          <td>Col 4</td>
+          <td colspan="2" rowspan="2" class="blue">Col 5</td>
+          <td rowspan="3" class="red">Col 7</td>
+        </tr>
+        <tr>
+          <!-- row 6 -->
+          <td colspan="2" rowspan="2">Col 2</td>
+          <td class="black">Col 4</td>
+        </tr>
+        <tr>
+          <!-- row 7 -->
+          <td colspan="3">Col 4</td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
